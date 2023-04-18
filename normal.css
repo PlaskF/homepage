@@ -1,0 +1,42 @@
+/* 너비 1920의 컨테이너 */
+.container{
+    width: 1080px;
+    margin: 0 auto;         /* 컨테이너 중앙 정렬 */
+    margin-bottom: 8px;     /* 아래 마진 8px */
+    overflow: hidden;       
+}
+/* 이미지 설정 */
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+
+/* 상단 메뉴 구성 */
+.menu{
+    padding: 8px 0 8px 0;
+    float: left;    
+    background-color: yellow;    
+    border: 10px solid gold;   
+}
+
+/* list 정렬 */
+li{
+    list-style-type: none;
+    float: left;            /* 왼쪽 부착 */
+    padding-left: 16px;     /* 왼쪽 패딩 16px */
+    font-size: large;
+    font-weight: bold;
+     
+}
+/* 하이퍼링크 밑줄 제거 */
+li > a{
+    display: block;
+    text-decoration: none;
+}
+/* 아래쪽 레이아웃 */
+.footer{
+    height: 80px;
+    width: 1080;
+    background-color: goldenrod;
+    position: relative;     /* 페이지 하단에 위치 */
+}
