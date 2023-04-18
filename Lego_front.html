@@ -5,69 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>레고</title>
-    <style> 
-        /* 너비 1920의 컨테이너 */
-        .container{
-            width: 1080px;
-            margin: 0 auto;         /* 컨테이너 중앙 정렬 */
-            margin-bottom: 8px;     /* 아래 마진 8px */
-            overflow: hidden;       
-        }
-        /* 개요 */
-        #overview{
-            width: 740px;           /* 너비 740px, 높이 428px */           
-            height: 500px;          
-            float: left;            /* 왼쪽 부착 */
-            background-color: skyblue;
-        }
-        /* 역사 */
-        #history{
-            width: 740px;           /* 너비 332px, 높이 428px */
-            height: 420px;
-            float: right;
-            margin-top: 8px;
-            background-color: darkred;
-        }
-        /* 놀이방법 */
-        #howtoplay{
-            width: 740px;           /* 너비 332px, 높이 428px */
-            height: 400px;
-            float: left;
-            background-color: skyblue;
-        }/* 제품군 */
-        #item{
-            width: 740px;           /* 너비 332px, 높이 428px */
-            height: 300px;
-            float: right;
-            margin-top: 8px;
-            background-color: darkred;
-        }/* 커뮤니티 */
-        #community{
-            width: 740px;           /* 너비 332px, 높이 428px */
-            height: 380px;
-            float: left;
-            background-color: skyblue;
-        }/* 대회 */
-        #contest{
-            width: 740px;           /* 너비 332px, 높이 428px */
-            height: 400px;
-            float: right;
-            margin-top: 8px;
-            background-color: darkred;
-        }
-        /* 아래쪽 레이아웃 */
-        .footer{
-            height: 80px;
-            width: 1080;
-            background-color: goldenrod;
-            position: relative;     /* 페이지 하단에 위치 */
-        }
+    <link rel="stylesheet" href="normal.css">
+    <link rel="stylesheet" href="contents.css">
+    <style></style>
 
         /* 이미지 설정 */
-        .logo{
-            display: block;
-            margin: 0 auto;
-        }
         .i1{
             float: left;
             margin-right: 8px;
@@ -79,29 +21,6 @@
             margin-left: 8px;
             width: 332px;
             height: auto;
-        }
-
-        /* 상단 메뉴 구성 */
-        .menu{
-            padding: 8px 0 8px 0;
-            float: left;    
-            background-color: yellow;    
-            border: 10px solid gold;   
-        }
-        
-        /* list 정렬 */
-        li{
-            list-style-type: none;
-            float: left;            /* 왼쪽 부착 */
-            padding-left: 16px;     /* 왼쪽 패딩 16px */
-            font-size: large;
-            font-weight: bold;
-             
-        }
-        /* 하이퍼링크 밑줄 제거 */
-        li > a{
-            display: block;
-            text-decoration: none;
         }
 
         /* 버튼 설정 */
