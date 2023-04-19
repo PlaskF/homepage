@@ -21,7 +21,7 @@
 .menu{
     padding: 8px 0 8px 0;
     float: left;    
-    background-color: yellow;    
+    background-color: whitesmoke;    
     border: 10px solid gold;   
 }
 
@@ -31,14 +31,21 @@ li{
     float: left;            /* 왼쪽 부착 */
     padding-left: 16px;     /* 왼쪽 패딩 16px */
     font-size: large;
-    font-weight: bold;
-     
+    font-weight: bold;     
 }
 /* 하이퍼링크 밑줄 제거 */
 li > a{
     display: block;
     text-decoration: none;
 }
+li:first-child{
+    padding-left: 10px;
+}
+li:last-child{
+    padding-right: 10px;
+}
+
+
 /* 아래쪽 레이아웃 */
 .footer{
     height: 80px;
