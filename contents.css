@@ -15,8 +15,8 @@
 }
 /* 놀이방법 */
 #howtoplay{
-    width: 740px;           /* 너비 332px, 높이 428px */
-    height: 400px;
+    width: 1080px;           /* 너비 332px, 높이 428px */
+    height: 100px;
     float: left;
 }/* 제품군 */
 #item{
