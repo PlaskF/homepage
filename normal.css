@@ -56,6 +56,5 @@ li:last-child{
 .footer{
     height: 80px;
     width: 1080;
-    background-color: goldenrod;
     position: relative;     /* 페이지 하단에 위치 */
 }
