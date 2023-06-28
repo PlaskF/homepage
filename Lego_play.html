@@ -32,13 +32,29 @@
             height: auto;       
         }
     </style>
+    <script>
+        // 현재 위치한 링크 페이지의 색을 빨강으로 정의
+        document.addEventListener("DOMContentLoaded", function() {
+            var linkList = document.getElementById("linkList")
+            var links = linkList.getElementsByTagName("a")
+            var currentPageURL = window.location.href
+    
+            for (var i = 0; i < links.length; i++) {
+              var link = links[i]
+              if (link.href === currentPageURL) {
+                link.classList.add("current")
+                break; // 현재 페이지와 일치하는 링크를 찾았으면 반복문 종료
+              }
+            }
+          })
+        </script>
 </head>
 <body>
     <div class="container">
         <img class="logo" src="img/logo1.jpg">       
     </div>
     <div class="container">
-        <ul class="menu">
+        <ul class="menu" id="linkList">
             <li><a href="Lego_front.html">1.개요</a></li>
             <li><a href="Lego_history.html">2.역사</a></li>
             <li><a href="Lego_play.html">3.놀이 방법</a></li>
@@ -81,7 +97,7 @@
     </div>
 
     <div class="container">
-        <div class="footer"><img class="footlogo" src="img/logo2.jpg"></div>
+        <div class="footer"><img class="footlogo" src="img/logo3.webp"></div>
     </div>
     
     <div class="limotecon">

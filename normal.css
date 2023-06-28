@@ -51,10 +51,19 @@ li:last-child{
     padding-right: 10px;
 }
 
+/* 링크 폰트 설정 */
+a {
+    color: black; /* 링크의 기본 색상 */
+}
+a.current {
+    color: red; /* 현재 위치한 링크의 색상 */
+}
+
 
 /* 아래쪽 레이아웃 */
 .footer{
     height: 80px;
     width: 1080;
     position: relative;     /* 페이지 하단에 위치 */
+    z-index: 1;             /* 이미지의 z-index 값을 낮게 설정 */
 }
